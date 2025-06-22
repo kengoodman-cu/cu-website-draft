@@ -1,17 +1,36 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: #beeeb8;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
+    text-align: center;
+}
+
+.flex-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
 }
 
 h1 {
-    flex: 1;
+    background-color: #ffffff;
+    flex: 70%;
+    padding: 20px;
 }
 
+h2 {
+    flex: 30%;
+    padding: 20px;
+
+}
+
+/* _y0ur_s3cr3ts */
+
 footer {
-    flex: 2;
+    padding: 20px;
+    text-align: center;
     background-color: #f1b9ec;
 }
